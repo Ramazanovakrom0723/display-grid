@@ -1,0 +1,93 @@
+figure{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .figure{
+        width: 100%;
+        height: 100%;
+        background-image: url(../../img/bg-img.jpg);
+        background-repeat: no-repeat;
+        background-size: inherit;
+        padding: 64px;
+        margin-left: 200px;
+        h2{
+            font-family: Roboto;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 48px;
+            letter-spacing: 1.600000023841858px;
+            color: aliceblue;
+            width: 40%;
+            padding-bottom: 33px;
+        }
+        .figure-end{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .size{
+            font-family: Roboto;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 48px;
+            color: #ADC9A6;
+        }
+        .pp{
+            font-size: 13px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            color: #DDE4E4;
+        }
+        button{
+            padding: 12px 42px;
+            border: none;
+            border-radius: 5px;
+            background-color: #84A17D;
+        }
+    }
+}
+
+@media (max-width: 448px){
+    figure{
+    .figure{
+        margin-left: 0px;
+        h2{
+        font-size: 12px;
+        line-height: 13px;
+        }
+        .size{
+            font-size: 19px;
+        }
+        .pp{
+            font-size: 8px;
+        }
+        button{
+            padding: 5px 10px;
+        }
+    }
+}
+}
+
+@media (min-width: 449px) and (max-width: 720px){
+    figure{
+    .figure{
+        margin-left: 40px;
+        h2{
+        font-size: 16px;
+        line-height: 18px;
+        }
+        .size{
+            font-size: 27px;
+        }
+        .pp{
+            font-size: 10px;
+        }
+        button{
+            padding: 8px 30px;
+        }
+    }
+}
+}
